@@ -29,7 +29,7 @@ public class Part1 {
             }
         });
 
-        Thread t = new Thread() { public void run() {Spam.main(null);}};
+        Thread t = new Thread(() -> Spam.main(null));
         t.start();
 
         t.join();

@@ -4,9 +4,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Spam {
-    private Thread[] threads;
-    private String[] messages;
-    private int[] timeouts;
+    private final Thread[] threads;
+    private final String[] messages;
+    private final int[] timeouts;
 
     public Spam(String[] messages, int[] timeouts) {
         this.messages = messages;
@@ -39,13 +39,13 @@ public class Spam {
     }
 
     public void stop() {
-        for (Thread thread : threads) { //TODO: what if threads is null?
+        for (Thread thread : threads) {
             thread.interrupt();
         }
     }
 
     private static class Worker extends Thread {
-        private final String message; //TODO: why final?
+        private final String message;
         private final int timeout;
 
         public Worker(String message, int timeout) {
@@ -61,7 +61,7 @@ public class Spam {
                     Thread.sleep(timeout);
                 }
             } catch (InterruptedException e) {
-
+                    e.printStackTrace();
             }
         }
     }
