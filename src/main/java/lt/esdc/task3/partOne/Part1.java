@@ -1,4 +1,4 @@
-package lt.esdc.partOne;
+package lt.esdc.task3.partOne;
 
 import java.io.InputStream;
 

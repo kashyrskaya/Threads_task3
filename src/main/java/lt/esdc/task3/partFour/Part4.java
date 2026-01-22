@@ -1,4 +1,4 @@
-package lt.esdc.partFour;
+package lt.esdc.task3.partFour;
 
 import java.io.File;
 import java.io.IOException;

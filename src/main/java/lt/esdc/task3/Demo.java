@@ -1,11 +1,11 @@
-package lt.esdc;
+package lt.esdc.task3;
 
-import lt.esdc.partFive.Part5;
-import lt.esdc.partFour.Part4;
-import lt.esdc.partOne.Part1;
-import lt.esdc.partThree.MatrixGenerator;
-import lt.esdc.partThree.Part3;
-import lt.esdc.partTwo.Part2;
+import lt.esdc.task3.partFive.Part5;
+import lt.esdc.task3.partFour.Part4;
+import lt.esdc.task3.partOne.Part1;
+import lt.esdc.task3.partThree.MatrixGenerator;
+import lt.esdc.task3.partThree.Part3;
+import lt.esdc.task3.partTwo.Part2;
 
 public class Demo {
 

@@ -1,4 +1,4 @@
-package lt.esdc.partTwo;
+package lt.esdc.task3.partTwo;
 
 public class Part2 {
     private final int n;

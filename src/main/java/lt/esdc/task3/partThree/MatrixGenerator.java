@@ -1,4 +1,4 @@
-package lt.esdc.partThree;
+package lt.esdc.task3.partThree;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package lt.esdc.partThree;
+package lt.esdc.task3.partThree;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

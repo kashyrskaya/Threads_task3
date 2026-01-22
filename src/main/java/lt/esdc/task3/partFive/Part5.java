@@ -1,4 +1,4 @@
-package lt.esdc.partFive;
+package lt.esdc.task3.partFive;
 
 public class Part5 {
     private static final Object monitor = new Object();
